@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a serverless app created using firebase from google and ready to deploy, sample deployed in https://reactclientpanel-9bc8f.web.app
 
+The only thing to have the app up and running is to configure your api key, once created an api in firestore, get the api config json and placed in a config folder in the src and exported to the store.js.
+
 ## Available Scripts
 
 In the project directory, you can run:
