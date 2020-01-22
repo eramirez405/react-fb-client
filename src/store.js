@@ -7,16 +7,11 @@ import { reduxFirestore, firestoreReducer } from "redux-firestore";
 import notifyReducer from "./reducers/notifyReducer";
 import settingsReducer from "./reducers/settingsReducer";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAHx9BZxWfz54ijJTlrokmP3MtB8-5Gmn8",
-  authDomain: "reactclientpanel-9bc8f.firebaseapp.com",
-  databaseURL: "https://reactclientpanel-9bc8f.firebaseio.com",
-  projectId: "reactclientpanel-9bc8f",
-  storageBucket: "reactclientpanel-9bc8f.appspot.com",
-  messagingSenderId: "156073728631",
-  appId: "1:156073728631:web:e94bcb3a025a5e4095c472",
-  measurementId: "G-85WH7Y3ST6"
-};
+// Config
+//Here is where you need to place your config object from firebase
+import config from "./config/config";
+
+const firebaseConfig = config;
 
 // react-redux-firebase config
 const rrfConfig = {
