@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a serverless app created using firebase from google and ready to deploy, sample deployed in https://reactclientpanel-9bc8f.web.app
+
 ## Available Scripts
 
 In the project directory, you can run:
